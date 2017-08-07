@@ -36,10 +36,13 @@
           <p>Forgot Password?</p>
           <form id="forgotPass" action="#" class="row">
             <p class="flow-text center-align">It&rsquo;s normal for humans to forget</p>
+            <p class="center-align">We can always help</p>
             <div class="input-field col s12">
-              <input class="center" type="email" id="email_forgot">
+              <input class="center validate" type="email" id="email_forgot">
               <!-- you can apply autofocus here, its gives an awesome user experience  -->
-              <label for="email_forgot" class="amber-text">What&rsquo;s your email?</label>
+              <label for="email_forgot" class="amber-text" data-success="Click reset... then check your email">
+                 What&rsquo;s your email?
+              </label>
               <div class="input-field col s12 center center-align">
                 <button class="btn waves-effect waves-light" type="submit">Reset my password</button>
                 <p class="center">

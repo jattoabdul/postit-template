@@ -115,3 +115,61 @@ form a.forgotPass {
   width: 95%;
   margin-left: 0.5rem;
 }
+
+#roomsView {
+	height: 100vh;
+	overflow-y: auto;
+	position: relative;
+}
+
+#roomsView a {
+	color: white;
+}
+
+#roomsView .profilePic {
+  width: 10rem;
+  height: 10rem;
+  margin: -2rem auto 1rem;
+  border-radius: 50%;
+  display: block;
+}
+
+#roomsView div>i.ion-navicon {
+  font-size: 3rem;
+  color: white;
+  margin-right: -0.5rem;
+  padding: 0 1rem;
+}
+
+#roomsView .sideheading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+#roomsView li {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+#roomsView li>a {
+  color: wheat;
+}
+
+#roomsView .buttomNavs {
+	position: absolute;
+	bottom: 1.5rem;
+	left: 1rem;
+}
+
+#roomsView .buttomNavs i.icon {
+	font-size: 2rem;
+}
+
+.no-marginbtm {
+	margin: 0;
+}
+
+#appBoard nav {
+  border-left: 1px solid white !important;
+}
