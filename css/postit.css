@@ -290,5 +290,39 @@ button.createGroup {
 #chatBoard {
   height: calc(100vh - 64px);
   position: absolute;
-  width: calc(100% - 19.3rem);
+	width: calc(100% - 19.3rem);
+	padding-top: 0.5rem;
+}
+
+#chatBoard .chat {
+	display: inline-block;
+  width: 100%;
+	color: teal;
+	padding: 1rem;
+	margin: 0;
+}
+
+.chat img {
+	border-radius: 50%;
+}
+
+.chat .message {
+  margin-top: -14px;
+  margin-left: 1rem;
+}
+
+.chat .details {
+	margin-top: -1rem;
+}
+
+.chat .sender_username {
+	border-bottom: 1px solid teal;
+}
+
+.chat .sender_details {
+	font-weight: 300;
+}
+
+.chat .sender_message {
+  margin-top: -0.5rem;
 }
