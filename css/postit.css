@@ -200,7 +200,7 @@ button.createGroup {
 }
 
 #chatArea.padTop {
-	padding: 2rem;
+  padding-top: 2rem;
 }
 
 .formPanel.card-panel {
