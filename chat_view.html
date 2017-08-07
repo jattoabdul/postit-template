@@ -51,90 +51,107 @@
         </nav>
         <div id="chatArea" class="white-text row no-marginbtm">
           <div id="chatBoard" class="col s11">
-            <div class="chat card">
-              <img src="http://i.pravatar.cc/60?img=59" alt="@jattoade" class="left">
-              <div class="message left">
-                <p class="sender_details">Jatto Abdulqahar <span class="sender_username">@jattoade</span> </p>
-                <p class="sender_message">Hi everyone! It&rsquo;s my pleasure to be here</p>
+            <div class="chats">
+              <div class="chat card">
+                <img src="http://i.pravatar.cc/60?img=59" alt="@jattoade" class="left">
+                <div class="message left">
+                  <p class="sender_details">Jatto Abdulqahar <span class="sender_username">@jattoade</span> </p>
+                  <p class="sender_message">Hi everyone! It&rsquo;s my pleasure to be here</p>
+                </div>
+                <div class="right details">
+                  <p class="date right">
+                    Aug 5 &nbsp;
+                    <i class="status icon ion-ios-checkmark-outline x15"></i>
+                    <br>
+                    <span class="time">2:30am</span>
+                  </p>
+                </div>
               </div>
-              <div class="right details">
-                <p class="date right">
-                  Aug 5 &nbsp;
-                  <i class="status icon ion-ios-checkmark-outline x15"></i>
-                  <br>
-                  <span class="time">2:30am</span>
-                </p>
+              <div class="chat card">
+                <img src="http://i.pravatar.cc/60?img=59" alt="@jattoade" class="left">
+                <div class="message left">
+                  <p class="sender_details">Ajala AbdulSamii <span class="sender_username">@jalasem</span> </p>
+                  <p class="sender_message">Hello!, welcome to NodeJS devs room. It is our pleasure to have you too.</p>
+                </div>
+                <div class="right details">
+                  <p class="date right">
+                    Aug 5 &nbsp;
+                    <i class="status icon ion-alert x15"></i>
+                    <br>
+                    <span class="time">2:34am</span>
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="chat card">
-              <img src="http://i.pravatar.cc/60?img=59" alt="@jattoade" class="left">
-              <div class="message left">
-                <p class="sender_details">Ajala AbdulSamii <span class="sender_username">@jalasem</span> </p>
-                <p class="sender_message">Hello!, welcome to NodeJS devs room. It is our pleasure to have you too.</p>
-              </div>
-              <div class="right details">
-                <p class="date right">
-                  Aug 5 &nbsp;
-                  <i class="status icon ion-alert x15"></i>
-                  <br>
-                  <span class="time">2:34am</span>
-                </p>
+            <div id="messageBox" class="row">
+              <form>
+                <div class="col s3 m2 input-field">
+                  <select id="priority">
+                    <option value="normal">Normal</option>
+                    <option value="important">Important</option>
+                    <option value="urgent">Urgent</option>
+                  </select>
+                </div>
+                <div class="col s6 m8 input-field">
+                  <input type="text" id="message2send" placeholder="Type your message and hit enter to send or click send" class="teal-text">
+                </div>
+                <button class="col s3 m2 btn-large waves-effect waves-light">Send</button>
+              </form>
               </div>
             </div>
-          </div>
-          <div class="white right col s1" id="usersScroll">
-            <ul>
-              <li>
-                <a href="#">
+            <div class="white right col s1" id="usersScroll">
+              <ul>
+                <li>
+                  <a href="#">
                     <img src="http://i.pravatar.cc/80?img=23" alt="">
                 </a>
-              </li>
-              <li>
-                <a href="#">
+                </li>
+                <li>
+                  <a href="#">
                     <img src="http://i.pravatar.cc/80?img=59" alt="">
                 </a>
-              </li>
-              <li>
-                <a href="#">
+                </li>
+                <li>
+                  <a href="#">
                     <img src="http://i.pravatar.cc/80?img=20" alt="">
                 </a>
-              </li>
-              <li>
-                <a href="#">
+                </li>
+                <li>
+                  <a href="#">
                     <img src="http://i.pravatar.cc/80?img=34" alt="">
                 </a>
-              </li>
-              <li>
-                <a href="#">
+                </li>
+                <li>
+                  <a href="#">
                     <img src="http://i.pravatar.cc/80?img=17" alt="">
                 </a>
-              </li>
-              <li>
-                <a href="#">
+                </li>
+                <li>
+                  <a href="#">
                     <img src="http://i.pravatar.cc/80?img=18" alt="">
                 </a>
-              </li>
-              <li>
-                <a href="#">
+                </li>
+                <li>
+                  <a href="#">
                     <img src="http://i.pravatar.cc/80?img=21" alt="">
                 </a>
-              </li>
-              <li>
-                <a href="#">
+                </li>
+                <li>
+                  <a href="#">
                     <img src="http://i.pravatar.cc/80?img=34" alt="">
                 </a>
-              </li>
-            </ul>
-            <span class="bottomSearch waves-effect waves-teal"><i class="icon ion-ios-search teal-text x25"></i></span>
+                </li>
+              </ul>
+              <span class="bottomSearch waves-effect waves-teal"><i class="icon ion-ios-search teal-text x25"></i></span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/app.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

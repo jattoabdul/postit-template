@@ -289,9 +289,9 @@ button.createGroup {
 
 #chatBoard {
   height: calc(100vh - 64px);
-  position: absolute;
-	width: calc(100% - 19.3rem);
-	padding-top: 0.5rem;
+  position: relative;
+  width: calc(100% - 4.8rem);
+  padding-top: 0.5rem;
 }
 
 #chatBoard .chat {
@@ -300,6 +300,11 @@ button.createGroup {
 	color: teal;
 	padding: 1rem;
 	margin: 0;
+}
+
+.chats {
+	height: calc(100% - 4.2rem);
+	overflow-y: auto;
 }
 
 .chat img {
@@ -325,4 +330,23 @@ button.createGroup {
 
 .chat .sender_message {
   margin-top: -0.5rem;
+}
+
+#messageBox {
+  position: absolute;
+  bottom: -1rem;
+  height: 3.5rem;
+  background: white;
+  padding: 0;
+  right: 1%;
+	width: 98%;
+}
+
+.select-wrapper input.select-dropdown {
+	color: teal;
+}
+
+#messageBox .col.input-field {
+  margin: 0;
+  padding-top: 2px;
 }
