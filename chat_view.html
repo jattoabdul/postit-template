@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/postit.css">
 </head>
 
-<body>
+<body style="overflow-y:hidden;">
 
   <div id="dashContainer" class="teal">
     <div id="appContainer" class="row no-marginbtm">
@@ -43,49 +43,60 @@
       <div id="appBoard" class="col s10 m9 l10 no-padding">
         <nav class="blue-grey darken-4">
           <div class="nav-wrapper">
-            <a href="welcome.html" class="brand-logo center">NodeJs Developers <i class="icon ion-speakerphone left"></i> <sub><small>where NodeJS Devs meet</small></sub></a>
+            <a href="welcome.html" class="brand-logo center">NodeJs Developers <i class="icon ion-speakerphone left x2"></i> <sub><small>where NodeJS Devs meet</small></sub></a>
             <ul class="right">
               <li><a href="#" class="waves-effect waves-light"><i class="icon ion-android-more-vertical"></i></a></li>
             </ul>
           </div>
         </nav>
-        <br>
-        <div id="chatArea" class="white-text row padTop">
-          <div class="container">
-            <div class="card-panel formPanel">
-              <form>
-                <div class="input-field col s12">
-                  <input type="text" id="group_name-create" required>
-                  <label for="group_name-create">Group Name</label>
-                </div>
-                <!-- <div class="input-field col s12">
-                <textarea id="group_desc-create" class="white-text" class="materialize-textarea" required></textarea>
-                <label for="group_name-create" class="white-text">Group Description</label>
-              </div> -->
-                <div class="input-field col s12">
-                  <textarea id="group_desc-create" class="materialize-textarea"></textarea>
-                  <label for="group_desc-create">Group Description</label>
-                </div>
-                <div class="col s12 teal-text">
-                  Add User (s):
-                  <div class="input-field inline">
-                    <input id="add_users" type="text" class="validate">
-                    <label for="add_users">Users</label>
-                  </div>
-                </div>
-                <div class="col s12">
-                  <p class="center">
-                    <button class="btn-large waves-effect waves-light">Create Group</button>
-                  </p>
-                </div>
-                <ul>
-                  <li><a href="#">@jattoade</a></li>
-                  <li><a href="#">@shery</a></li>
-                  <li><a href="#">@joe</a></li>
-                  <li><a href="#">@ratcoder</a></li>
-                </ul>
-              </form>
-            </div>
+        <div id="chatArea" class="white-text row no-marginbtm">
+          <div id="chatBoard" class="col s11">
+
+          </div>
+          <div class="white right col s1" id="usersScroll">
+            <ul>
+              <li>
+                <a href="$#">
+                    <img src="http://i.pravatar.cc/80?img=23" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="$#">
+                    <img src="http://i.pravatar.cc/80?img=59" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="$#">
+                    <img src="http://i.pravatar.cc/80?img=20" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="$#">
+                    <img src="http://i.pravatar.cc/80?img=34" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="$#">
+                    <img src="http://i.pravatar.cc/80?img=17" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="$#">
+                    <img src="http://i.pravatar.cc/80?img=18" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="$#">
+                    <img src="http://i.pravatar.cc/80?img=21" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="$#">
+                    <img src="http://i.pravatar.cc/80?img=34" alt="">
+                </a>
+              </li>
+            </ul>
+            <span class="bottomSearch waves-effect waves-teal"><i class="icon ion-ios-search teal-text x25"></i></span>
           </div>
         </div>
       </div>
