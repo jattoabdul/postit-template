@@ -206,3 +206,15 @@ button.createGroup {
 .formPanel.card-panel {
 	display: flex;
 }
+
+.welcome.card-panel {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  padding-bottom: 0.1rem;
+}
+
+.or {
+	line-height: 200%;
+  margin-left: -1rem;
+}
